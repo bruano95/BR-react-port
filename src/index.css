@@ -9,14 +9,14 @@
 }
 
 body {
-  background: lightslategray;
+  background: black;
 }
 
 h1,
 h4,
 p,
 a {
-  color: black;
+  color: lightgreen;
   text-decoration: none;
 }
 

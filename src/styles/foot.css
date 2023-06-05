@@ -1,0 +1,15 @@
+.foot-components{
+    justify-content: space-around;
+    display: flex;
+}
+
+.emailMe,
+.city {
+    color: white;
+}
+
+@media screen and (max-width: 640px) {
+    .foot-components{
+        display: grid;
+    }
+}

@@ -19,8 +19,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: white;
-    opacity: .5;
+    background-color: black;
+    opacity: .60;
 }
 
 .frontpageImage {
@@ -37,11 +37,28 @@
 }
 
 .brandonpic {
+    padding-top: 25px;
+    align-items: left;
     width: 50%;
-    height: 50%;
-    border-radius: 50%;
+    height: 63vh;
+    border-radius: 60px;
 }
 
 .frontpagecontent {
     font-size: 20px;
 }
+
+@media screen and (max-width: 640px) {
+    .frontpageImage .frontpagecontent p {
+        font-size: 15px;
+    }
+
+    .brandonpic{
+        width: 75%;
+        height: 40vh;
+        justify-content: center;
+    }
+
+
+}
+

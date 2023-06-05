@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "../styles/Navbar.css";
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="logo">
         <Link to="/">
-            <h1>Bruano</h1>
+            <h1>Brandon Ruano</h1>
         </Link>
         <ul className= {click ? "navOptions active" : "navOptions"}>
             <li>
@@ -27,9 +27,9 @@ const Navbar = () => {
         </ul>
         <div className="navham" onClick={clickHandler}>
             {click ? (
-            <FaBars size={20} style={{color:"white"}}/>
+            <FaTimes size={20} style={{color:"white"}}/>
             ) : (
-            <FaTimes size={20} style={{color:"white"}}/>)
+            <FaBars size={20} style={{color:"white"}}/>)
             }
          </div>
     </div>
