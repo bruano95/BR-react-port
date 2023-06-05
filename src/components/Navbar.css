@@ -1,0 +1,55 @@
+.navOptions {
+    display: flex;
+}
+
+.navOptions li {
+    padding: 0 1rem;
+}
+
+.navOptions li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navham{
+    display: none;
+}
+
+@media screen and (max-width: 1040px) {
+    .navOptions{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: lightslategray;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.4s;
+    }
+
+    .navOptions.active {
+        left: 0;
+    }
+
+    .navOptions li{
+        padding: 1rem 0;
+    }
+
+    .nav-menu li a {
+        font-size: 2rem;
+    }
+
+    .navham{
+        display: initial;
+    }
+}
