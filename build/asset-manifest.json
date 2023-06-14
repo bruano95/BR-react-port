@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/bruano95.github.io/BR-react-port,/static/css/main.9ecabf42.css",
+    "main.js": "/bruano95.github.io/BR-react-port,/static/js/main.97c8ed58.js",
+    "static/media/Block-Party.png": "/bruano95.github.io/BR-react-port,/static/media/Block-Party.32234e06ad9ba5d48c75.png",
+    "static/media/frontpage.jpg": "/bruano95.github.io/BR-react-port,/static/media/frontpage.b1056b008c3c516f54b6.jpg",
+    "static/media/Brandon-profile.png": "/bruano95.github.io/BR-react-port,/static/media/Brandon-profile.b498230ed3615732fef5.png",
+    "static/media/WnD.jpeg": "/bruano95.github.io/BR-react-port,/static/media/WnD.7d72124cb1050d9d7640.jpeg",
+    "static/media/Quizapp.png": "/bruano95.github.io/BR-react-port,/static/media/Quizapp.f4b14ebc0ebdc00e13d5.png",
+    "index.html": "/bruano95.github.io/BR-react-port,/index.html",
+    "main.9ecabf42.css.map": "/bruano95.github.io/BR-react-port,/static/css/main.9ecabf42.css.map",
+    "main.97c8ed58.js.map": "/bruano95.github.io/BR-react-port,/static/js/main.97c8ed58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ecabf42.css",
+    "static/js/main.97c8ed58.js"
+  ]
+}
