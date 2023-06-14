@@ -13,8 +13,9 @@ const Aboutcard = () => {
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
+
   return (
-    <div>
+    <div className="about-card-container">
       <div className="frontpageImage">
         <div className="backgroundimg">
           <img className="front-img" src={Frontimg} alt="FrontImg" />
@@ -23,17 +24,17 @@ const Aboutcard = () => {
           <Typewriteraboutme />
         </div>
       </div>
-      <div className="profile-card">
+      <div data-aos="fade-right" className="profile-card">
         <img className="profile-img" src={BrandonProfile} alt="Profile" />
       </div>
-      <div className="education-card">
+      <div data-aos="fade-left" className="education-card">
         <h3>Education</h3>
         <ul>
           <li>Bachelor's degree in Kinesiology, California State University of Dominguez Hills</li>
           <li>Coding Bootcamp, University of Washington</li>
         </ul>
       </div>
-      <div className="skills-card">
+      <div data-aos="fade-right" className="skills-card">
         <h3>Skills</h3>
         <ul>
           <li>HTML</li>
@@ -44,7 +45,7 @@ const Aboutcard = () => {
           <li>React.js</li>
         </ul>
       </div>
-      <div className="interests-card">
+      <div data-aos="fade-left" className="interests-card">
         <h3>Interests</h3>
         <ul>
           <li>Snowboarding</li>
