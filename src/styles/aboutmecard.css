@@ -1,0 +1,46 @@
+.about-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .profile-card {
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .education-card,
+  .skills-card,
+  .interests-card {
+    background-color: grey;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .education-card h3,
+  .skills-card h3,
+  .interests-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  h3 {
+    color: #333;
+  }

@@ -5,6 +5,7 @@ import Aboutme from "./pages/Aboutme";
 import Projects from "./pages/Projects";
 import Contactme from "./pages/Contactme";
 import { Route, Routes } from "react-router-dom";
+import 'tailwindcss/tailwind.css';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/aboutme" element={<Aboutme />} />
-      <Route path="/projects" element={<Projects />} />
+      <Route path="/Projects" element={<Projects />} />
       <Route path="/contactme" element={<Contactme />} />
     </Routes>
     </>

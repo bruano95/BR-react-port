@@ -2,7 +2,7 @@ import "../styles/foot.css"
 import React from 'react'
 import { FaEnvelope, FaGithub, FaHome, FaLinkedin,  } from 'react-icons/fa'
 
-const foot = () => {
+const Foot = () => {
   return (
     <div className="foot">
         <div className="foot-components">
@@ -36,4 +36,4 @@ const foot = () => {
   )
 }
 
-export default foot
+export default Foot

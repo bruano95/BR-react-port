@@ -8,15 +8,15 @@ const Navbar = () => {
     const clickHandler = () => setClick(!click);
   return (
     <div className="logo">
-        <Link to="/">
+        {/* <Link to="/">
             <h1>Brandon Ruano</h1>
-        </Link>
+        </Link> */}
         <ul className= {click ? "navOptions active" : "navOptions"}>
             <li>
                 <Link to="/">Home</Link>
             </li>
             <li>
-                <Link to="/projects">Projects</Link>
+                <Link to="/Projects">Projects</Link>
             </li>
             <li>
                 <Link to="/aboutme">About Me</Link>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 <Link to="/contactme">Contact Me</Link>
             </li>
         </ul>
-        <div className="navham" onClick={clickHandler}>
+        <div className="navhamburger" onClick={clickHandler}>
             {click ? (
             <FaTimes size={20} style={{color:"white"}}/>
             ) : (
